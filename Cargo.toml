@@ -2,10 +2,12 @@
 name = "simple-server-rust"
 version = "0.1.0"
 edition = "2021"
+include = ["/src"]
 
 [dependencies]
 log = "0.4"
+http = "1.2.0"
 
 [[bin]]
 name = "simple-server-rust"
-path = "main.rs"
+path = "src/main.rs"
